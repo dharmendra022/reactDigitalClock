@@ -11,6 +11,9 @@ ReactDOM.render(
   //   <App />
   // </React.StrictMode>,
   <>
+  <div className="digi">
+  <h1>Digital Clock</h1>
+  </div>
   <Digitalclock/>
   
   

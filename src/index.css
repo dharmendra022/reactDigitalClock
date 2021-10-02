@@ -5,9 +5,35 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: bisque;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+h1{
+  size: 17px;
+
+}
+.digi{
+  background-color: aqua;
+  text-align: center;
+  height: 50px;
+}
+.c{
+  background-color: cadetblue;
+  height: 250px;
+  text-align: center;
+  width: 250px;
+  padding: 100px;
+  border-radius: 50px;margin-top: 30px;
+  margin-left: 40%;
+
+}
+.c:hover{
+  background-color: darkblue;
+  color: white;
+  padding: 50px;
+
 }
