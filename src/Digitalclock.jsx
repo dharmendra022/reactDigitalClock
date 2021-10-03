@@ -2,7 +2,11 @@ import React, { useState } from "react";
 
 
 
-let time= new Date().toLocaleTimeString();
+
+
+
+const Digitalclock=()=>{
+    let time= new Date().toLocaleTimeString();
 
 const[ctime, setCtime] = useState(time);
 
@@ -11,14 +15,13 @@ const UpdateTime = ()=>{
     setCtime(time);
 
 
-}
+}  
 setInterval(UpdateTime,1000)
-
-
-const Digitalclock=()=>{
     return(
         <>
-        <h1>{ctime}</h1>
+        <div className="c">
+        <h1 id="cTime" >{ctime}</h1>
+        </div>
         {/* <button onClick={UpdateTime}></button> */}
         </>
     )
